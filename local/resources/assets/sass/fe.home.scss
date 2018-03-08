@@ -1,0 +1,17 @@
+#h_home_header {
+  margin-bottom: 60px;
+  h3.title {
+    font-size: 60px;
+    padding-bottom: 10px;
+  }
+  p.description {
+    line-height: 1.5;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@import "fe.home.h_product";
+@import "fe.home.h_plan";
+@import "fe.home_h_news";
+@import "fe.home_h_example";

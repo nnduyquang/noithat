@@ -1,0 +1,53 @@
+#h_news {
+  margin-top: 35px;
+  background-image: url(../images/temps/home/h_news_one_bg.jpg);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  img.h_home_news_bg {
+
+  }
+  #h_news_info {
+    .h_news_wrap_img {
+      background-color: white;
+      padding: 10px;
+      position: relative;
+      img.h_home_news_item {
+
+      }
+      img.h_home_news_tips {
+        position: absolute;
+        z-index: 1;
+        top: -16px;
+        width: 50%;
+        left: -58px;
+      }
+    }
+    .h_news_content {
+      h4 {
+        font-size: 31px;
+        color: #222;
+      }
+      p {
+        line-height: 1.5;
+        margin-top: 20px;
+      }
+      a.h_news_read_more {
+        margin-top: 20px;
+        color: black;
+        transition: all 0.2s;
+        padding: 0 2px 3px 2px;
+        border-bottom: 2px solid black;
+        width: 20%;
+        text-align: center;
+        display: block;
+      }
+      a.h_news_read_more:hover {
+        color: lightblue;
+      }
+    }
+  }
+
+}
