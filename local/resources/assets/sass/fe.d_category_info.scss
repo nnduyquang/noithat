@@ -1,0 +1,50 @@
+#d_category_info{
+  img.d_category_info_img{
+    height: 500px;
+  }
+  .content{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    h1.title{
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+    p.description{
+      line-height: 1.5;
+    }
+  }
+  .collection{
+    margin-bottom: 20px;
+    img.d_category_collection{
+      height: auto;
+    }
+    h4.title{
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+  }
+}
+@media all and (min-width: 800px) {
+  .fancybox-thumbs {
+    top: auto;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right : 0;
+    height: 95px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+    ul{
+      justify-content: center;
+      display: flex;
+    }
+  }
+
+  .fancybox-show-thumbs .fancybox-inner {
+    right: 0;
+    bottom: 95px;
+  }
+}

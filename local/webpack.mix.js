@@ -22,11 +22,14 @@ mix
     //JS CORE FRONTEND
     .styles([
         'bower_components/nivo-slider/jquery.nivo.slider.pack.js',
+        'bower_components/owl.carousel/dist/owl.carousel.min.js'
+
     ], '../js/core.frontend.js')
 
     //CSS CORE FRONTEND
     .styles([
         'bower_components/nivo-slider/nivo-slider.css',
+        'bower_components/owl.carousel/dist/assets/owl.carousel.min.css'
     ], '../css/core.frontend.css')
 
     .sass('resources/assets/sass/frontend.scss', '../css/frontend.css').options({processCssUrls: false})

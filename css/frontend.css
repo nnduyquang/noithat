@@ -418,6 +418,238 @@ img {
   background-color: #f1f1f1;
 }
 
+#c_list {
+  margin-top: 20px;
+}
+
+#c_list hr {
+  border: none;
+  height: 50px;
+  -webkit-box-shadow: 0 20px 20px -20px #333;
+          box-shadow: 0 20px 20px -20px #333;
+}
+
+#c_list h1.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #8c8c8c;
+}
+
+#c_list h1.title span.hightlight {
+  color: #3a3a3a;
+  font-weight: 900;
+}
+
+#c_list p.description {
+  text-align: center;
+  font-size: 25px;
+}
+
+#c_list #c_list_info {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#c_list #c_list_info .one-item {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#c_list #c_list_info .one-item .icon-item {
+  background-color: #ececec;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#c_list #c_list_info .one-item .icon-item i {
+  color: #807f7e;
+  font-size: 30px;
+}
+
+#c_list #c_list_info .one-item .icon-item:hover {
+  background-color: #323233;
+}
+
+#c_list #c_list_info .one-item .icon-item:hover i {
+  color: white;
+  font-size: 38px;
+}
+
+#c_list #c_list_info .one-item h4.name-item {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#c_list #c_list_info .one-item:hover h4.name-item {
+  font-weight: bold;
+}
+
+#c_list #c_list_info .owl-carousel {
+  position: relative;
+}
+
+#c_list #c_list_info .owl-carousel .owl-item img {
+  height: 150px;
+}
+
+#c_list #c_list_info .owl-carousel .owl-item img:hover {
+  cursor: pointer;
+}
+
+#c_list #c_list_info .owl-theme .owl-nav [class*='owl-'] {
+  background-color: #fff;
+  color: #DC0000;
+  top: 0;
+  margin: 0;
+  border-radius: 0;
+  opacity: 0.7;
+}
+
+#c_list #c_list_info .owl-prev, #c_list #c_list_info .owl-next {
+  position: absolute;
+}
+
+#c_list #c_list_info .owl-next {
+  right: 0;
+}
+
+#c_list #c_list_info .owl-theme .owl-nav [class*='owl-']:hover {
+  opacity: 1;
+  background-color: #fff;
+}
+
+#c_list #c_list_info .owl-theme .owl-nav [class*='owl-'] i {
+  font-size: 46px;
+}
+
+#c_list #c_list_info .uk-thumbnail {
+  border-radius: 0;
+}
+
+#c_list #c_list_info .owl-carousel {
+  margin: 3px 0;
+}
+
+#c_list #c_list_info .owl-carousel .owl-nav .owl-prev {
+  left: -50px;
+  right: auto;
+  top: -33%;
+}
+
+#c_list #c_list_info .owl-carousel .owl-nav .owl-next {
+  top: -33%;
+}
+
+#c_list #c_list_item {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#c_list #c_list_item h4.main_title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#c_list #c_list_item a {
+  color: #727272;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#c_list #c_list_item a .one-item h4.title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#c_list #c_list_item a:hover {
+  color: #ccc;
+}
+
+#d_category_info img.d_category_info_img {
+  height: 500px;
+}
+
+#d_category_info .content {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#d_category_info .content h1.title {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+#d_category_info .content p.description {
+  line-height: 1.5;
+}
+
+#d_category_info .collection {
+  margin-bottom: 20px;
+}
+
+#d_category_info .collection img.d_category_collection {
+  height: auto;
+}
+
+#d_category_info .collection h4.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+@media all and (min-width: 800px) {
+  .fancybox-thumbs {
+    top: auto;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .fancybox-thumbs ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fancybox-show-thumbs .fancybox-inner {
+    right: 0;
+    bottom: 95px;
+  }
+}
+
 #footer {
   position: relative;
   z-index: unset;
